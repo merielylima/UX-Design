@@ -82,3 +82,117 @@ body{
     height: 46px;
     font-size: 18px;
 }
+
+
+
+
+.container__footer{
+    max-width: 1200px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.footer-left{
+     margin: auto;
+}
+
+  
+.title1{
+   
+    color: #313E8D;
+    font-size:32px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.description1{
+    color: #505679;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+
+#img1 {
+    position: absolute;
+    left: 2.5%;
+    top: 100%
+	
+}
+
+.descri1{
+    position: absolute;
+    color: #505679;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 20%;
+    height:10%; 
+}
+
+
+#img2 {
+    position: absolute;
+    left: 50%;
+    top: 100%
+} 
+    
+.descri2{
+    position: absolute;
+    color: #505679;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 72.5%;
+    margin-top: 10%;
+    width: 20%;
+    height:10%;
+ 
+    
+}
+
+#img3 {
+    position: absolute;
+    left: 2.5%;
+    top: 150%
+	
+}
+
+.descri3{
+    position: absolute;
+    color: #505679;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 25%;
+    margin-top: 35%;
+    width: 20%;
+    height:10%;
+   
+    
+} 
+
+
+#img4 {
+    position: absolute;
+    left: 50%;
+    top: 150%
+} 
+    
+.descri4{
+    position: absolute;
+    color: #505679;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 72.5%;
+    margin-top: 35%;
+    width: 20%;
+    height:10%;
+ 
+    
+}
+ 
