@@ -97,12 +97,11 @@ body{
 
 }
 .footer-left{
-     margin: auto;
+    margin: auto;
 }
 
   
 .title1{
-   
     color: #313E8D;
     font-size:32px;
     font-weight: 700;
@@ -118,81 +117,88 @@ body{
 }
 
 
-#img1 {
-    position: absolute;
-    left: 2.5%;
-    top: 100%
-	
+#colun{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+#linha1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+   
+}
+#linha2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+#conte1 {
+    display:flex;
+    flex-direction: row;
+    margin: 2rem;
+   
 }
 
 .descri1{
-    position: absolute;
+    
     color: #505679;
     font-size: 18px;
     text-align: justify;
-    margin-left: 25%;
-    margin-top: 10%;
+    margin: 2rem ;
     width: 20%;
-    height:10%; 
-}
+    height: 20%;
 
-
-#img2 {
-    position: absolute;
-    left: 50%;
-    top: 100%
-} 
-    
-.descri2{
-    position: absolute;
-    color: #505679;
-    font-size: 18px;
-    text-align: justify;
-    margin-left: 72.5%;
-    margin-top: 10%;
-    width: 20%;
-    height:10%;
- 
     
 }
 
-#img3 {
-    position: absolute;
-    left: 2.5%;
-    top: 150%
+
+#conte2 {
+    display:flex;
+    flex-direction: row;
+    margin: 2rem;
 	
 }
 
-.descri3{
-    position: absolute;
+.descri2{
+    
     color: #505679;
     font-size: 18px;
     text-align: justify;
-    margin-left: 25%;
-    margin-top: 35%;
+    margin: 2rem;
     width: 20%;
-    height:10%;
+    height: 20%;
+    
+} 
+
+
+.descri3{
+  
+    color: #505679;
+    font-size: 18px;
+    text-align: justify;
+    margin: 2rem;
+    width: 20%;
+    height: 20%;
+    
    
     
-} 
+}
 
-
-#img4 {
-    position: absolute;
-    left: 50%;
-    top: 150%
-} 
-    
 .descri4{
-    position: absolute;
+    
     color: #505679;
     font-size: 18px;
     text-align: justify;
-    margin-left: 72.5%;
-    margin-top: 35%;
+    margin: 2rem;
     width: 20%;
-    height:10%;
- 
+    height: 20%;
     
-}
- 
+} 
+
