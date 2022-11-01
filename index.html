@@ -116,28 +116,6 @@
     <footer>
         <p class="txt"> Link do repositório no <a href="https://github.com/merielylima/UX-Design">Github</a></p>
     </footer>
-    <script>
-
-    function valida(input){
-        var ppDwn = document.getElementById("pp-dwn");    
-        if(input.validity.valid){
-            input.classList.remove('input-container--invalido');
-            console.log("removeu a classe");
-            ppDwn.style.display = "block";
-        }else{
-            input.classList.add('input-container--invalido');
-            console.log("add a classe");
-        }
-    }
-    const input = document.querySelector('input');
-    input.addEventListener('blur', (evento) =>{
-        console.log("fsiuh")
-        valida(evento.target);
-    })
-    function clspp(button){
-    var ppDwn = document.getElementById("pp-dwn");    
-    ppDwn.style.display = "none";
-    }
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
