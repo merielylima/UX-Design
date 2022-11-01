@@ -25,19 +25,30 @@
         </div>
     </header>
     <main class="container__main">
+        <div id="pp-dwn" class='fullscreen-container'>
+            <div class="popdiv">
+                <div class="popup">
+                    <button class="btn-close" type="button" onclick="clspp(this);" > x </button>
+                    <h2 class="pp-title">Email enviado!</h2>
+                    <p class="pp-content"> O pdf do E-book foi enviado para o email informado.</p>
+                    <p> Caso não tenha crecebido, verifique se o e-mail está correto e tente novamente.</p>
+                </div>
+            </div>
+        </div>
         <section id="inicio" class="container__apresentation">
             <div class="apresentation-left">
                 <h2 class="title-main">GUIA INFORMATIVO</h2>
                 <p class="description">Mulheres de TI em Siutação de Vulnerabilidade</p>
-                <div class="button-area">
-                    <input class="input" placeholder="Email">
-                    <button class="button">Enviar </button>
-                    
-                </div>
+                <form action="" name = "formulario" >
+                    <div class="button-area">
+                        <input type="email" class="input" placeholder="Email" required>
+                        <button class="button" >Enviar</button>
+                    </div>
+                </form>
                 <p>Informe seu email para receber o guia completo</p>
             </div>
             <div class="apresentation-right">
-                <img class="apresentation-img" src="img/Right.svg" alt="">
+                <img class="apresentation-img" src="img/Right.svg" alt="Imagem ilustrativa">
             </div>
         </section>
         <section id="sobre1">
@@ -53,11 +64,11 @@
                         <p class="item-text"  > Mulheres que se sentem inseguras por ser uma área que é dominada por homens e acabam se sentindo exluidas</p>
                     </div>
                     <div class="description-item ">
-                        <img class="item-img" src="img/img-3.svg" alt="" width="25%" height="25%" >
+                        <img class="item-img" src="img/img-3.svg" >
                         <p class="item-text mr" > Mulheres que terminaram seu ensino medio, mas não puderam cursar uma graduação por razão de conseguiram consciliar os estudos com o trabalho</p> 
                     </div>
                     <div class="description-item">
-                        <img class="item-img" src="img/img4.svg" alt="" width="25%" height="25%" >
+                        <img class="item-img" src="img/img4.svg">
                         <p class="item-text"  >Mulheres que desejam realizar uma graduação em TI, mas ao sair do ensino médio não possuem conhecimento sobre o assunto e acabam desistindo de cursar o curso.  </p>
                     </div>
             </div>
@@ -105,5 +116,28 @@
     <footer>
         <p class="txt"> Link do repositório no <a href="https://github.com/merielylima/UX-Design">Github</a></p>
     </footer>
+    <script>
+
+    function valida(input){
+        var ppDwn = document.getElementById("pp-dwn");    
+        if(input.validity.valid){
+            input.classList.remove('input-container--invalido');
+            console.log("removeu a classe");
+            ppDwn.style.display = "block";
+        }else{
+            input.classList.add('input-container--invalido');
+            console.log("add a classe");
+        }
+    }
+    const input = document.querySelector('input');
+    input.addEventListener('blur', (evento) =>{
+        console.log("fsiuh")
+        valida(evento.target);
+    })
+    function clspp(button){
+    var ppDwn = document.getElementById("pp-dwn");    
+    ppDwn.style.display = "none";
+    }
+    </script>
 </body>
 </html>

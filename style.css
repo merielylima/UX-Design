@@ -189,6 +189,78 @@ body{
     text-align: center;
     margin-bottom: 1rem
 }
+
+.fullscreen-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(90, 90, 90, 0.5);
+    z-index: 9999;
+}
+.popdiv {
+    font-size: 18px;
+    height: fit-content;
+    max-width: 30rem;
+    border-radius: 6px;
+    text-align: justify;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 15vw auto;
+}
+.popup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding:  3rem 2rem;
+}
+
+.pp-title{
+    font-weight: 700;
+    font-size:36px;
+    margin-bottom:1rem;
+    color: #313E8D
+}
+
+.pp-content{
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 0.5rem;
+}
+
+.btn-close{
+    position: absolute;
+    top: 0.5rem;
+    color: #505679;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 500;
+    border: none;
+    background-color: #FFF;
+
+}
+.input-container--invalido {
+    height: 40px;
+    width: -webkit-fill-available;
+    border-radius: 8px;
+    margin-right: 1rem;
+    padding: 0.1rem 1rem;
+    border: 1px solid #ff9b9b;
+    background-color: #fff1f1;
+}
+.input-container--invalido:focus{
+    outline: none;
+}
+
+
 @media (max-width: 1220px){
     .description-content{
         justify-content: center;
