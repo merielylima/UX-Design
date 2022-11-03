@@ -1,5 +1,3 @@
-# A partir delas
-
  <h1 align="center"> A partir delas </h1>
 
 <p  align="center" >Projeto desenvolvido para disciplina de Interação Homem Computador e Experiencia do Usuário.</p>
