@@ -3,7 +3,7 @@ body{
     background-color: #FFF;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
-    color:#505679
+    color:#505679;
 }
 .mr{
     margin-right: 2rem;
@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.25rem 2.5rem;
+    padding: 0.75rem 2.5rem;
     box-shadow: 0px 2px 6px rgba(115, 114, 173, 0.25);
     position: sticky;
     top: 0;
@@ -31,12 +31,12 @@ body{
     font-weight: 500;
     margin-right: 1rem;
     text-decoration: none;
-    color: #313E8D;
+    color: #535CAD;
     padding: 0.5rem;
     width: 100px;
 }
 .item:hover{
-    border-bottom: 4px solid #313E8D;
+    border-bottom: 4px solid #535CAD;
 }
 .container__main{
     max-width: 1200px;
@@ -62,7 +62,7 @@ body{
     width: -webkit-fill-available;
 }
 .title-main{
-    color: #313E8D;
+    color: #535CAD;
     font-size:54px;
     font-weight: 700;
     text-align: center;
@@ -77,7 +77,7 @@ body{
     height: 40px;
     width: -webkit-fill-available;
     border-radius: 8px;
-    border: 1px solid  #313E8D;
+    border: 1px solid  #535CAD;
     margin-right: 1rem;
     padding: 0.1rem 1rem;
 }
@@ -94,7 +94,7 @@ body{
 .button{
     width: 160px;
     color: #FFF;
-    background-color: #313E8D;
+    background-color: #535CAD;
     border-radius: 8px;
     border:none;
     height: 46px;
@@ -117,21 +117,24 @@ body{
 }
 
 .title{
-    color: #313E8D;
+    color: #535CAD;
     font-size:32px;
     font-weight: 700;
-    border-bottom: 1px solid #313E8D;
+    border-bottom: 1px solid #535CAD;
     width: 260px;
     text-align: left;
     padding: 0.5rem 0;
     margin: 0.5rem 0;
 
 }
-
+.strong{
+    font-weight: 700;
+}
 .about{
     color: #505679;
     font-size: 18px;
-    text-align: left;
+    text-align: justify;
+    
 }
 .description-content{
     display: flex;
@@ -167,9 +170,10 @@ body{
     flex-direction: column;
     align-items: center;
     width: 353px;
+    margin-top: 1.5rem
 }
 .name{
-    color: #313E8D;
+    color: #535CAD;
     font-weight:  700;
     font-size: 24px;
     margin: 0.5rem 0;
@@ -227,7 +231,7 @@ body{
     font-weight: 700;
     font-size:36px;
     margin-bottom:1rem;
-    color: #313E8D
+    color: #535CAD;
 }
 
 .pp-content{
@@ -297,9 +301,6 @@ body{
     }
     .item-text{
         margin: 1rem 0;
-    }
-    .footer-img{
-        margin-top: 1.5rem
     }
     .title-main{
         font-size: 42px;
