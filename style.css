@@ -4,9 +4,6 @@ body{
     font-size: 18px;
     color:#505679;
 }
-.mr{
-    margin-right: 2rem;
-}
 .container_header{
     display: flex;
     justify-content: space-between;
@@ -143,6 +140,7 @@ body{
     padding-top: 2.5rem;
     padding-bottom: 2rem;
     flex-wrap: wrap;
+    justify-content: space-between
 }
 .description-item{
     display: flex;
